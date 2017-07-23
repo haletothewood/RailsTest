@@ -9,7 +9,7 @@ Specifications
 
 * MAC OSX 10.12.5
 
-We need three parts to build a Rails app: a controller, a route, and a view.
+There are three parts to build a Rails app: a controller, a route, and a view.
 
 Controller Setup:
 rails generate controller Pages
