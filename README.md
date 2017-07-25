@@ -12,13 +12,15 @@ Specifications
 We need three parts to build a Rails app: a controller, a route, and a view.
 
 Controller Setup:
-rails generate controller Pages
-	app/controllers/pages_controller.rb
+
+`rails generate controller Pages`
+
+app/controllers/pages_controller.rb
 	
-			`class PagesController < ApplicationController
-				def home
-				end
-			end`
+	`class PagesController < ApplicationController
+  		def home
+  		end
+	end`
 
 Route Setup:
 config/routes.rb
