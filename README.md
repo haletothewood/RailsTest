@@ -17,23 +17,23 @@ Controller Setup:
 
 app/controllers/pages_controller.rb
 	
-	`class PagesController < ApplicationController
+	class PagesController < ApplicationController
   		def home
   		end
-	end`
+	end
 
 Route Setup:
 config/routes.rb
 
-	`get 'welcome' => 'pages#home'`
+	get 'welcome' => 'pages#home'
 
 View Setup:
 app/views/pages/home.html.erb
 
-	`<div class="main">
+	<div class="main">
   		<div class="container">
-    <h1>Hello my name is __</h1>
+    	<h1>Hello my name is __</h1>
     	<p>I make Rails apps.</p>
   		</div>
-	</div>`
+	</div>
 
